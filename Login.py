@@ -6,15 +6,6 @@ import time
 
 class LoginPage(ctk.CTk):
     def __init__(self):
-        super().__init__()  # Initialize the CTk window
-
-        self.geometry("500x400")  # Set window size
-        self.title("PenPass Login")  # Set window title
-        ctk.set_appearance_mode("Dark") # Set custom theme (if desired):
-        ctk.set_default_color_theme("dark-blue")  # Consider using variables for theme customization
-
-class LoginPage(ctk.CTk):
-    def __init__(self):
         super().__init__()
 
         self.geometry("500x400")
